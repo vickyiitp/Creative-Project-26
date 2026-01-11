@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spectrum City - 5G Optimization Simulation</title>
+    <link rel="canonical" href="https://vickyiitp.tech/spectrum-city" />
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Play Spectrum City, a minimalist isometric puzzle game where you strategically place 5G towers to maximize city coverage. Built by Vicky Kumar (vickyiitp)." />
+    <meta name="keywords" content="Vicky Kumar, vickyiitp, AI developer, IIT Patna, 100 games, web apps, devil labs, Spectrum City, 5G game, puzzle game, simulation, react game" />
+    <meta name="author" content="Vicky Kumar" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vickyiitp.tech/spectrum-city" />
+    <meta property="og:title" content="Spectrum City - 5G Optimization Simulation" />
+    <meta property="og:description" content="Master the invisible web. Strategically place 5G towers in this isometric puzzle game by Vicky Kumar." />
+    <meta property="og:image" content="https://vickyiitp.tech/spectrum-city-og.jpg" />
+    <meta property="og:site_name" content="Spectrum City" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://vickyiitp.tech/spectrum-city" />
+    <meta name="twitter:title" content="Spectrum City - 5G Optimization Simulation" />
+    <meta name="twitter:description" content="Master the invisible web. Strategically place 5G towers in this isometric puzzle game by Vicky Kumar." />
+    <meta name="twitter:image" content="https://vickyiitp.tech/spectrum-city-og.jpg" />
+    <meta name="twitter:creator" content="@vickyiitp" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background-color: #0f172a; /* Slate 900 */
+        margin: 0;
+        overflow-x: hidden;
+        font-family: 'Inter', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      canvas {
+        image-rendering: pixelated; /* Crisp pixel art look */
+      }
+      .font-display {
+        font-family: 'Orbitron', sans-serif;
+      }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0f172a; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #334155; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #475569; 
+      }
+      /* Utility for modal blur */
+      .backdrop-blur-md {
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+      }
+    </style>
+    
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "name": "Spectrum City",
+          "url": "https://vickyiitp.tech/spectrum-city",
+          "description": "A minimalist isometric puzzle game regarding 5G tower placement.",
+          "author": {
+            "@type": "Person",
+            "name": "Vicky Kumar",
+            "url": "https://vickyiitp.tech",
+            "sameAs": [
+              "https://youtube.com/@vickyiitp",
+              "https://linkedin.com/in/vickyiitp",
+              "https://x.com/vickyiitp",
+              "https://github.com/vickyiitp",
+              "https://instagram.com/vickyiitp"
+            ]
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Vicky Kumar",
+          "alternateName": "vickyiitp",
+          "url": "https://vickyiitp.tech",
+          "jobTitle": "AI Developer",
+          "alumniOf": "IIT Patna"
+        }
+      ]
+    }
+    </script>
+    
+    <script type="importmap">
+    {
+      "imports": {
+        "react/": "https://aistudiocdn.com/react@^19.2.0/",
+        "react": "https://aistudiocdn.com/react@^19.2.0",
+        "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+        "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+        "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

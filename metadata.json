@@ -1,0 +1,5 @@
+{
+  "name": "Spectrum City",
+  "description": "A minimalist isometric puzzle game where you strategically place 5G towers to maximize city coverage using real-time raycasting mechanics.",
+  "requestFramePermissions": []
+}
